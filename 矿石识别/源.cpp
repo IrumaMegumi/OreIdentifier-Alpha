@@ -19,7 +19,7 @@ private:
 	vector<vector<Point>> _contours;
 	vector<Rect> _boundRect;
 	vector<int> _six_index, _square_index;
-	vector<int> key_index, _other_index;
+	vector<int> _key_index, _other_index;
 	void _GraphicsDetect();
 private:
 	void _RDirectionDetect();
